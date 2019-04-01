@@ -1,22 +1,17 @@
-11:34:19.029 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
-11:34:19.076 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4445
-2019-03-29 11:34:19.114:INFO::main: Logging initialized @272ms to org.seleniumhq.jetty9.util.log.StdErrLog
-11:34:19.286 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
-11:34:19.357 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
-11:34:19.674 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+19:39:11.563 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+19:39:11.611 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4445
+2019-03-31 19:39:11.649:INFO::main: Logging initialized @273ms to org.seleniumhq.jetty9.util.log.StdErrLog
+19:39:11.817 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+19:39:11.890 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+19:39:12.205 INFO [ActiveSessionFactory.apply] - Capabilities are: {
   "acceptSslCerts": true,
-  "browserName": "firefox",
-  "javascriptEnabled": true,
-  "marionette": true,
-  "name": "Calculator"
+  "browserName": "chrome",
+  "name": "Cancel Test"
 }
-11:34:19.676 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1553880859842	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/tp/hh512dhn5dd__h2v77zgfsb40000gn/T/rust_mozprofile.WN5ueM4gkyj2"
-1553880860216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1553880860216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1553880860216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1553880861537	Marionette	INFO	Listening on port 51357
-11:34:21.621 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-11:34:21.646 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 9fffd9df-f6df-2d40-8b5c-09d9d83ec2c5 (org.openqa.selenium.firefox.GeckoDriverService)
-1553880863645	Marionette	INFO	Stopped listening on port 51357
-11:34:24.067 INFO [ActiveSessions$1.onStop] - Removing session 9fffd9df-f6df-2d40-8b5c-09d9d83ec2c5 (org.openqa.selenium.firefox.GeckoDriverService)
+19:39:12.206 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 3537
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+19:39:13.284 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+19:39:13.497 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session b7ebf4e43bb0b6c7e32996a14b1e5afa (org.openqa.selenium.chrome.ChromeDriverService)
+19:39:14.422 INFO [ActiveSessions$1.onStop] - Removing session b7ebf4e43bb0b6c7e32996a14b1e5afa (org.openqa.selenium.chrome.ChromeDriverService)
